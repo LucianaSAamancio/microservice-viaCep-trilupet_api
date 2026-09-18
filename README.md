@@ -13,6 +13,10 @@ As principais tecnologias que serão utilizadas aqui é o:
  - [SQLite](https://www.sqlite.org/index.html)
  - [Docker para Windows](https://docs.docker.com/desktop/setup/install/windows-install/)
  
+  ---
+### Arquitetura do MVP 
+<img width="827" height="477" alt="Arquitetura do MCP - Cenário 1" src="ArquiteturaMCP-Cenario1.png" />
+
  ---
 ### Como Instalar o Projeto através do Docker Desktop
 
