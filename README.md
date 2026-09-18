@@ -17,7 +17,7 @@ As principais tecnologias que serão utilizadas aqui é o:
 ### Arquitetura do MVP 
 <img width="827" height="477" alt="Arquitetura do MCP - Cenário 1" src="ArquiteturaMCP-Cenario1.png" />
  
-Interface (Front-End) do Agendamento de Consultas do Trilupet Service que consulta o CEP  utilizando o serviço externo [ViaCEP](https://viacep.com.br/) e que tem um módulo de cadastro  API (Back-End) para efetuar o cadastro de agendamento de consultas e salvar as informações do endereço adquirido pelo CEP.
+Interface (Front-End) do Agendamento de Consultas do Trilupet Service que consulta o CEP  utilizando o serviço externo [ViaCEP](https://viacep.com.br/) e que tem um módulo de cadastro  API (Back-End) para efetuar o cadastro de agendamento de consultas e salvar as informações do endereço adquirido pelo CEP no banco de dados [SQLite](https://www.sqlite.org/index.html).
  
 ---
 ### Como Instalar o Projeto através do Docker Desktop
