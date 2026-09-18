@@ -13,11 +13,13 @@ As principais tecnologias que serão utilizadas aqui é o:
  - [SQLite](https://www.sqlite.org/index.html)
  - [Docker para Windows](https://docs.docker.com/desktop/setup/install/windows-install/)
  
-  ---
+---
 ### Arquitetura do MVP 
 <img width="827" height="477" alt="Arquitetura do MCP - Cenário 1" src="ArquiteturaMCP-Cenario1.png" />
-
- ---
+ 
+Interface (Front-End) do Agendamento de Consultas do Trilupet Service que consulta o CEP  utilizando o serviço externo [ViaCEP](https://viacep.com.br/) e que tem um módulo de cadastro  API (Back-End) para efetuar o cadastro de agendamento de consultas e salvar as informações do endereço adquirido pelo CEP.
+ 
+---
 ### Como Instalar o Projeto através do Docker Desktop
 
 1 - Instalar o Docker, o Python e todas as demais bibliotecas necessárias listadas em "requirements.txt" no seu computador. Também certifique-se de instalar o Node.js e as dependências necessárias para a visualização da interface.
@@ -51,7 +53,7 @@ docker run -d -p 5000:5000 --name container_api trilupet-api
 
 Abra o [http://localhost:5000/#/](http://localhost:5000/#/) no navegador para verificar o status da API em execução.
 
- ---
+---
 ### Como Instalar o Projeto na máquina local
 1 - Clone o código na sua máquina executando 
 
