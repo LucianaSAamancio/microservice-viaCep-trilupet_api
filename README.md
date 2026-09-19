@@ -2,7 +2,7 @@
 
 Este pequeno projeto é o MVP da Sprint: Arquitetura de Software (40530010062_20260_01) da pós-graduação Engenharia de Software da PUC-RJ.
 
-O objetivo é apresetar um sistema composto por três módulos que se comunicam, seguindo o padrão REST. O componente externo é o serviço ViaCEP . A persistência de dados é feita utilizando o SQLite. Cada componente desenvolvido possui o seu próprio repositório e, na raiz do repositório, existe um Dockerfile com as instruções que possam garantir a sua execução utilizando containers.
+O objetivo é apresentar um sistema composto por três módulos que se comunicam, seguindo o padrão REST. O componente externo é o serviço ViaCEP . A persistência de dados é feita utilizando o SQLite. Cada componente desenvolvido possui o seu próprio repositório e, na raiz do repositório, existe um Dockerfile com as instruções que possam garantir a sua execução utilizando containers.
 
 As principais tecnologias que serão utilizadas aqui é o:
  - [Python](https://www.python.org/downloads/)
@@ -111,4 +111,4 @@ Para executar a API basta executar:
 $ flask run --host 0.0.0.0 --port 5000
 ```
 
-7 -  Abra o [link](http://192.168.0.17:5000/) exibido no final no navegador para verificar o status da API em execução.
+7 -  Abra o link exibido no final no navegador para verificar o status da API em execução.
